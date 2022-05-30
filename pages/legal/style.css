@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  /* background-color: #f0f0f0; */
+  background: rgba(244, 232, 222, 0.8);
+
+}
+
+h1 {
+  margin: 50px 0 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.legal-terms {
+  max-width: 48rem;
+  padding-top: 170rem;
+}
+.legal-privacy {
+  max-width: 48rem;
+  padding-top: 120rem;
+}
+
+@media screen and (max-width:776px) {
+
+  .legal-privacy{
+    padding-top: 220rem;
+  }
+  .legal-terms{
+    padding-top: 310rem;
+  }
+
+}
+
+/* .legal {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+} */
+
+
+/* .legal-title {
+  margin: 0 35px 0 0;
+}
+
+.legal-text {
+  display: none;
+  margin: 30px 0 0 ;
+}
+.legal.active .legal-text {
+  display: block;
+} */
