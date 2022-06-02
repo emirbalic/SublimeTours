@@ -94,7 +94,7 @@ body {
 
 header {
   min-height: 100vh;
-  background: url(img-home/Rome-Vatican-Bridge.jpg)center/cover fixed no-repeat;
+  background: url(img-home/Rome-Vatican-Bridge.webp)center/cover fixed no-repeat;
    background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -151,6 +151,24 @@ nav {
   letter-spacing: 8px;
   font-size: 30px;
   font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.btn-call {
+  background-color: #d9b55a;
+  border: 1px solid #03243e;
+  border-radius: 1em;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1.4rem;
+  margin: 1rem;
+}
+
+.btn-call:hover {
+  transition-duration: 0.1s;
+  background-color: #b8ac90;
 }
 
 /* pages */
@@ -412,7 +430,7 @@ nav {
 .testimonials {
   /* 220px */
   padding: 8rem 0;
-  background: linear-gradient(rgba(80, 142, 150, 0.149), rgba(170, 175, 95, 0.2)), url(img-home/Rome-Rainbow.jpg)center/cover fixed no-repeat;
+  background: linear-gradient(rgba(80, 142, 150, 0.149), rgba(170, 175, 95, 0.2)), url(img-home/Rome-Rainbow.webp)center/cover fixed no-repeat;
 }
 
 .testimonial {
@@ -504,7 +522,7 @@ nav {
 
 .contact {
   padding: 170px 0;
-  background: linear-gradient(rgba(205, 202, 5, 0.172), rgba(14, 45, 101, 0.7)), url(img-home/Rome-Piazza-Di-Spagna.jpg) center/cover fixed no-repeat;
+  background: linear-gradient(rgba(205, 202, 5, 0.172), rgba(14, 45, 101, 0.7)), url(img-home/Rome-Piazza-Di-Spagna.webp) center/cover fixed no-repeat;
 
   color: rgba(244, 232, 222, 0.8);
 
@@ -654,6 +672,8 @@ only screen and (min-device-pixel-ratio: 1.5){
   transition-duration: 0.1s;
   background-color: #f1d9a2;
 }
+
+
 .btn-tour:after {
   content: "";
   display: block;
