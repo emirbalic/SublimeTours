@@ -3,13 +3,13 @@
     if(isset($_POST['submit'])) {
 
         $name = $_POST['name'];
-        $lastname = $_POST['lastname'];
+        // $lastname = $_POST['lastname'];  " ".$lastname.
         $email = $_POST['email'];
         $message = $_POST['message'];
         
         $email_from = 'Sublime Tours';
         $email_subject = 'New Form Submission';
-        $email_body = "You have message from: ".$name." ".$lastname."\n".
+        $email_body = "You have message from: ".$name."\n".
                       "User email: $email.\n\n".
                       "User message: $message.\n";
     

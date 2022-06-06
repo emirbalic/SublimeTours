@@ -1,0 +1,125 @@
+.banner h1 p,
+.banner h3,
+.banner h4 {
+    font-family: Muli, sans-serif;
+}
+
+.bannerCard {
+flex: 0 0 90%;
+text-align: center;
+padding: 70px 0;
+outline: 1px solid #191919;
+outline-offset: -10px;
+background: rgba(255, 255, 255, 0.5);
+}
+
+.bannerCard h1 {
+font-size: 60px;
+/* color: #8579D9; */
+/* font-style: italic; */
+text-transform: uppercase;
+}
+
+.bannerCard span {
+color: #03243e;
+}
+
+.bannerCard h3 {
+text-transform: capitalize;
+letter-spacing: 8px;
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 1.5rem;
+}
+
+.bannerCard h4 {
+text-transform: uppercase;
+font-size: 20px;
+-webkit-text-stroke: 1px #847552;
+color: #03243e;
+padding-bottom: 0.4rem;
+}
+
+.tourCard p {
+margin: auto 8rem;
+}
+
+.btn-tour {
+    position: relative;
+    background-color: #d9b55a;
+    border: 1px;
+    border-radius: 3em;
+    font-size: 16px;
+    align-self: end;
+    padding: 1.4rem;
+    margin: 1rem;
+  }
+  
+  .btn-tour:hover {
+    color: rgb(78, 78, 162);
+    transition-duration: 0.1s;
+    background-color: #f1d9a2;
+  }
+  
+  .walking-tour {
+    background: url(img-pages/walking-tour.jpg)center/cover fixed no-repeat;
+  }
+  
+  .wine-tour {
+    background: url(img-pages/wine-tour.jpg)center/cover fixed no-repeat;
+  }
+  .walking-pizza-class {
+    background: url(img-pages/walking-pizza-class.jpg)center/cover fixed no-repeat;
+  }
+  .walking-pasta-class {
+    background: url(img-pages/walking-pasta-class.jpg)center/cover fixed no-repeat;
+  }
+  .full-cooking-class {
+    background: url(img-pages/full-cooking-class.jpg)center/cover fixed no-repeat;
+  }
+
+@media screen and (max-width:776px) {
+
+.tourCard p {
+    margin: auto 2rem;
+}
+.tourCard h1 {
+    text-transform:capitalize;
+    margin-top: 20rem;
+}
+.food-tour {
+    padding-top: 27rem;
+}
+.walking-tour {
+    padding-top: 14rem;
+}
+.walking-pasta-class {
+    padding-top: 30rem;
+}
+.walking-pizza-class {
+    padding-top: 30rem;
+}
+}
+
+@media screen and (max-width:776px) {
+
+    .tourCard p {
+      margin: auto 2rem;
+    }
+    .tourCard h1 {
+      text-transform:capitalize;
+      margin-top: 20rem;
+    }
+    .food-tour {
+      padding-top: 27rem;
+    }
+    .walking-tour {
+      padding-top: 14rem;
+    }
+    .walking-pasta-class {
+      padding-top: 30rem;
+    }
+    .walking-pizza-class {
+      padding-top: 30rem;
+    }
+  }

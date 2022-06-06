@@ -34,23 +34,23 @@ body {
   position: fixed;
   top: 2.5rem;
   left: 5.5rem;
-  /* background: url('../../img/menu-white.svg');
+  background: url('../../img/menu-white.svg');
   height: 20px;
     width: 20px;
-    display: block; */
+    display: block;
 }
 
 /* tmp */
-.icon {
+/* .open-btn {
   background: url('../../img/menu-white.svg');
   height: 20px;
   width: 20px;
   display: block;
 
-  background: url('../../img/menu-white.svg');
+  background: url('../../img/menu.png');
   cursor: pointer;
 
-}
+} */
 .nav {
   position: fixed;
   top: 0;

@@ -94,7 +94,7 @@ body {
 
 header {
   min-height: 100vh;
-  background: url(img-home/Rome-Vatican-Bridge.webp)center/cover fixed no-repeat;
+  background: url(img-home/Rome-Vatican-Bridge.jpg)center/cover fixed no-repeat;
    background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -115,10 +115,10 @@ nav {
   justify-content: center;
 }
 
-.banner h1 span,
+/* .banner h1 span,
 .banner h3 {
   font-family: 'Rock Salt', cursive;
-}
+} */
 .banner h1 p,
 .banner h3 {
    font-family: Muli, sans-serif;
@@ -135,10 +135,11 @@ nav {
 
 .bannerCard h1 {
   font-size: 60px;
-  color: #8579D9;
+  /* color: #8579D9; */
+  -webkit-text-stroke: 1px #847552;
 
   /* color: #8fcbfd; */
-  font-style: italic;
+  /* font-style: italic; */
   text-transform: uppercase;
 }
 
@@ -152,7 +153,21 @@ nav {
   font-size: 30px;
   font-weight: 700;
   padding-bottom: 2rem;
+  -webkit-text-stroke: 1px #847552;
+
 }
+
+.bannerCard h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  -webkit-text-stroke: 1px #847552;
+  /* color: #03243e; */
+  padding-bottom: 0.4rem;
+  }
+
+  .tourCard p {
+    margin: auto 8rem;
+    }
 
 .btn-call {
   background-color: #d9b55a;
@@ -168,7 +183,8 @@ nav {
 
 .btn-call:hover {
   transition-duration: 0.1s;
-  background-color: #b8ac90;
+  background-color: #f2d89c;
+  color: #03243e !important;
 }
 
 /* pages */
@@ -215,13 +231,6 @@ nav {
   }
 }
 
-
-.tourover:hover {
-  /* color: rgb(179, 245, 245);
-  background: rgba(55, 61, 114, 0.5); */
-  /* color: rgb(55, 61, 114); */
-  transition: color 0.2s ease, font-size 0.8s ease;
-}
 
 .walking-tour {
   background: url(img-pages/walking-tour.jpg)center/cover fixed no-repeat;
@@ -430,7 +439,7 @@ nav {
 .testimonials {
   /* 220px */
   padding: 8rem 0;
-  background: linear-gradient(rgba(80, 142, 150, 0.149), rgba(170, 175, 95, 0.2)), url(img-home/Rome-Rainbow.webp)center/cover fixed no-repeat;
+    background: linear-gradient(rgba(80, 142, 150, 0.149), rgba(170, 175, 95, 0.2)), url(img-home/Rome-Rainbow.jpg)center/cover fixed no-repeat;
 }
 
 .testimonial {
@@ -481,6 +490,34 @@ nav {
 
 /*about */
 
+#toc_container {
+  background: #03243e none repeat scroll 0 0;
+  border: 1px solid rgba(244, 232, 222, 0.8);
+  flex: 0 0 70%;
+  text-align: center;
+  padding: 70px 0;
+  outline: 1px solid #191919;
+  outline-offset: -10px;
+  margin-bottom: 1em;
+  padding: 20px;
+  width: auto;
+  color: rgba(244, 232, 222, 0.8);
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li, #toc_container ul li a{
+  list-style: outside none none !important;
+  color: rgba(244, 232, 222, 0.8) !important;
+}
+
+section article h2 {
+  scroll-margin-top: 100px
+}
+
 .about {
   padding: 100px 0;
   background-color: #03243e;
@@ -495,15 +532,25 @@ nav {
 .about-statement {
   color: rgba(244, 232, 222, 0.8);
   font-family: Muli, sans-serif;
+  text-align: center;
 
 }
+
+
+
 .about-statement h2 {
   text-transform: uppercase;
   padding: 20px 0;
+  /* text-align: center; */
+
 }
 .about-statement p {
   padding-top: 10px;
   font-size: large;
+}
+
+.about center {
+  margin-top: 3rem;
 }
 
 @media screen and (min-width:776px) {
@@ -522,7 +569,7 @@ nav {
 
 .contact {
   padding: 170px 0;
-  background: linear-gradient(rgba(205, 202, 5, 0.172), rgba(14, 45, 101, 0.7)), url(img-home/Rome-Piazza-Di-Spagna.webp) center/cover fixed no-repeat;
+  background: linear-gradient(rgba(205, 202, 5, 0.172), rgba(14, 45, 101, 0.7)), url(img-home/Rome-Piazza-Di-Spagna.jpg) center/cover fixed no-repeat;
 
   color: rgba(244, 232, 222, 0.8);
 
@@ -672,8 +719,6 @@ only screen and (min-device-pixel-ratio: 1.5){
   transition-duration: 0.1s;
   background-color: #f1d9a2;
 }
-
-
 .btn-tour:after {
   content: "";
   display: block;
