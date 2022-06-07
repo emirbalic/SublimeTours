@@ -95,7 +95,7 @@ body {
 header {
   min-height: 100vh;
   background: url(img-home/Rome-Vatican-Bridge.jpg)center/cover fixed no-repeat;
-   background-position: center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -165,9 +165,9 @@ nav {
   padding-bottom: 0.4rem;
   }
 
-  .tourCard p {
-    margin: auto 8rem;
-    }
+.tourCard p {
+  margin: auto 8rem;
+  }
 
 .btn-call {
   background-color: #d9b55a;
@@ -208,6 +208,11 @@ nav {
   margin: auto 8rem;
 }
 
+.tourover p strong {
+  font-size: larger;
+  text-decoration: underline;
+}
+
 @media screen and (max-width:776px) {
 
   .tourCard p {
@@ -220,9 +225,9 @@ nav {
   .food-tour {
     padding-top: 27rem;
   }
-  .walking-tour {
-    padding-top: 14rem;
-  }
+  /* .walking-tour {
+    padding-top: 88rem;
+  } */
   .walking-pasta-class {
     padding-top: 30rem;
   }
@@ -234,6 +239,7 @@ nav {
 
 .walking-tour {
   background: url(img-pages/walking-tour.jpg)center/cover fixed no-repeat;
+  padding-top: 88rem;
 }
 
 .food-tour {
@@ -502,16 +508,20 @@ nav {
   padding: 20px;
   width: auto;
   color: rgba(244, 232, 222, 0.8);
+  font-size: large;
 }
 
 .toc_title {
   font-weight: 700;
   text-align: center;
+  padding-bottom: 1.5rem;
+  text-transform: uppercase;
 }
 
 #toc_container li, #toc_container ul, #toc_container ul li, #toc_container ul li a{
   list-style: outside none none !important;
   color: rgba(244, 232, 222, 0.8) !important;
+  padding-bottom: 1rem;
 }
 
 section article h2 {
@@ -547,6 +557,8 @@ section article h2 {
 .about-statement p {
   padding-top: 10px;
   font-size: large;
+  text-align: center;
+
 }
 
 .about center {
