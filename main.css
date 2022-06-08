@@ -255,6 +255,7 @@ nav {
 }
 .walking-pizza-class {
   background: url(img-pages/walking-pizza-class.jpg)center/cover fixed no-repeat;
+  padding-top: 99rem;
 }
 .walking-pasta-class {
   background: url(img-pages/walking-pasta-class.jpg)center/cover fixed no-repeat;
