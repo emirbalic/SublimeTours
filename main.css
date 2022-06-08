@@ -247,21 +247,25 @@ nav {
 .food-tour {
   background: url(img-pages/food-tour.jpg)center/cover fixed no-repeat;
   padding-top: 125rem;
-
 }
 
 .wine-tour {
   background: url(img-pages/wine-tour.jpg)center/cover fixed no-repeat;
 }
+
 .walking-pizza-class {
   background: url(img-pages/walking-pizza-class.jpg)center/cover fixed no-repeat;
   padding-top: 99rem;
 }
+
 .walking-pasta-class {
   background: url(img-pages/walking-pasta-class.jpg)center/cover fixed no-repeat;
+  padding-top: 120rem;
 }
+
 .full-cooking-class {
   background: url(img-pages/full-cooking-class.jpg)center/cover fixed no-repeat;
+  padding-top: 120rem;
 }
 
 @media screen and (min-width:992px) {
