@@ -90,6 +90,8 @@ body {
   transform: rotate(45deg) translate(-7px, -8px);
 }
 
+
+
 /* header */
 
 header {
@@ -239,11 +241,13 @@ nav {
 
 .walking-tour {
   background: url(img-pages/walking-tour.jpg)center/cover fixed no-repeat;
-  padding-top: 88rem;
+  padding-top: 80rem;
 }
 
 .food-tour {
   background: url(img-pages/food-tour.jpg)center/cover fixed no-repeat;
+  padding-top: 125rem;
+
 }
 
 .wine-tour {
