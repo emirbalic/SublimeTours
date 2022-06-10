@@ -117,10 +117,6 @@ nav {
   justify-content: center;
 }
 
-/* .banner h1 span,
-.banner h3 {
-  font-family: 'Rock Salt', cursive;
-} */
 .banner h1 p,
 .banner h3 {
    font-family: Muli, sans-serif;
@@ -167,9 +163,7 @@ nav {
   padding-bottom: 0.4rem;
   }
 
-.tourCard p {
-  margin: auto 8rem;
-  }
+
 
 .btn-call {
   background-color: #d9b55a;
@@ -191,17 +185,31 @@ nav {
 
 /* pages */
 
+.tourBanner {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1000px;
+  /* padding-top: 10px; */
+}
+
 .tourCard {
   flex: 0 0 90%;
   text-align: center;
   font-size: 1.5rem;
-  padding-top: 28rem;
+  /* margin-top: 30rem;
+  padding-top: 28rem; */
   outline: 1px solid #191919;
   outline-offset: -5px;
   background: rgba(244, 232, 222, 0.8);
   color: #443232;
   font-family: Muli, sans-serif;
 }
+
+.tourCard p {
+  margin: auto 8rem;
+  }
 
 .tourCard h1 {
   text-transform: uppercase;
@@ -210,10 +218,10 @@ nav {
   margin: auto 8rem;
 }
 
-.tourover p strong {
+/* .tourover p strong {
   font-size: larger;
   text-decoration: underline;
-}
+} */
 
 @media screen and (max-width:776px) {
 
@@ -259,9 +267,9 @@ nav {
   padding-top: 99rem;
 }
 
-.walking-pasta-class {
+.walking-pasta-background {
   background: url(img-pages/walking-pasta-class.jpg)center/cover fixed no-repeat;
-  padding-top: 120rem;
+  /* padding-top: 120rem; */
 }
 
 .full-cooking-class {

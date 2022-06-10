@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Muli, sans-serif;
+}
+
+.tourBanner {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.tourCard {
+  flex: 0 0 90%;
+  text-align: center;
+  font-size: 1.5rem;
+  outline: 1px solid #191919;
+  outline-offset: -5px;
+  background: rgba(244, 232, 222, 0.8);
+  color: #443232;
+  font-family: Muli, sans-serif;
+}
+
+.tourCard p {
+  margin: auto 8rem;
+}
+
+.tourCard h1 {
+  text-transform: uppercase;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.tourCard h2 {
+  padding-top: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.tourCard h3 {
+  padding-bottom: 0.5rem;
+}
+.tourCard h4 {
+  font-size: larger;
+  padding-bottom: 0.5rem;
+}
+.tourCard p {
+  margin: auto 8rem;
+}
+
+.walking-tour-background {
+    background: url(../img-pages/walking-tour.jpg)center/cover fixed no-repeat;
+  }
+
+.walking-pasta-background {
+  background: url(../img-pages/walking-pasta-class.jpg) center/cover fixed
+    no-repeat;
+}
+
+.food-tour-background {
+    background: url(../img-pages/food-tour.jpg)center/cover fixed no-repeat;
+  }
+
+  .wine-tour-background {
+    background: url(../img-pages/wine-tour.jpg)center/cover fixed no-repeat;
+  }
+  
+  .walking-pizza-class-background {
+    background: url(../img-pages/walking-pizza-class.jpg)center/cover fixed no-repeat;
+  }
+  
+  .walking-pasta-background {
+    background: url(../img-pages/walking-pasta-class.jpg)center/cover fixed no-repeat;
+  }
+  
+  .full-cooking-class-background {
+    background: url(../img-pages/full-cooking-class.jpg)center/cover fixed no-repeat;
+  }
+
+/* buttons */
+.btn-tour {
+  position: relative;
+  background-color: #d9b55a;
+  border: 1px;
+  border-radius: 3em;
+  font-size: 16px;
+  align-self: end;
+  padding: 1.4rem;
+  margin: 1rem;
+}
+
+.btn-tour:hover {
+  color: rgb(78, 78, 162);
+  transition-duration: 0.1s;
+  background-color: #f1d9a2;
+}
+.btn-tour:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+}
+.btn-tour:active:after {
+  box-shadow: 0 0 0 0 white;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+@media screen and (max-width: 776px) {
+  .tourCard p {
+    margin: auto 2rem;
+  }
+  .tourCard h1 {
+    text-transform: capitalize;
+    margin-top: 20rem;
+  }
+  .food-tour {
+    padding-top: 27rem;
+  }
+  /* .walking-tour {
+      padding-top: 88rem;
+    } */
+  .walking-pasta-class {
+    padding-top: 30rem;
+  }
+  .walking-pizza-class {
+    padding-top: 30rem;
+  }
+}

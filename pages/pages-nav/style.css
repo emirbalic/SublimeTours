@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap'); */
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Muli', sans-serif;
+  /* font-family: 'Muli', sans-serif; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .text {
@@ -34,13 +34,9 @@ body {
   position: fixed;
   top: 2.5rem;
   left: 5.5rem;
-  /* background: url('../../img/menu-white.svg');
-  height: 20px;
-    width: 20px;
-    display: block; */
+
 }
 
-/* tmp */
 .icon {
   background: url('../../img/menu-white.svg');
   height: 20px;

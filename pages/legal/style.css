@@ -19,11 +19,11 @@ h1 {
 
 .legal-terms {
   max-width: 48rem;
-  padding-top: 170rem;
+  /* padding-top: 170rem; */
 }
 .legal-privacy {
   max-width: 48rem;
-  padding-top: 120rem;
+  /* padding-top: 120rem; */
 }
 
 @media screen and (max-width:776px) {
