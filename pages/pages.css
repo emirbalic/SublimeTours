@@ -126,24 +126,26 @@ body {
   transition: 0s;
 }
 
+
+
 @media screen and (max-width: 776px) {
+
+  .logo {
+    max-width: 4rem;
+  }
   .tourCard p {
     margin: auto 2rem;
   }
   .tourCard h1 {
     text-transform: capitalize;
-    margin-top: 20rem;
+    margin-top: 2rem;
   }
-  .food-tour {
-    padding-top: 27rem;
-  }
-  /* .walking-tour {
-      padding-top: 88rem;
-    } */
-  .walking-pasta-class {
-    padding-top: 30rem;
-  }
-  .walking-pizza-class {
-    padding-top: 30rem;
+
+}
+
+@media screen and (max-width: 420px) {
+  .logo {
+    max-width: 8rem;
   }
 }
+

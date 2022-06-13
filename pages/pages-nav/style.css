@@ -128,3 +128,13 @@ body {
   background-color: rgba(244, 232, 222, 0.8);
 }
 
+@media screen and (max-height: 570px) {
+
+  .logo {
+    width: 6rem;    
+  }
+  .list li {
+    margin: 10px 0;
+  }
+}
+
